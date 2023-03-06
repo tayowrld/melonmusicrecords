@@ -1,0 +1,214 @@
+@media screen and (max-width:1200px) {
+    .tayo-mmr_switcherBlock{
+        padding-top: 50px;
+        padding-left: 80vw;
+    }
+    .tayo-mmr_switcherButton{
+        position: relative;
+        width: 130px;
+        height: 40px;
+        border-radius: 40px;
+    }
+    
+    .tayo-mmr_switcherFigure{
+        top:3.5px;
+        left: 5px;
+        width: 60px;
+        height: 35px;
+    }
+    
+    .tayo-mmr_switcherLogoPro{
+        top: -20px;
+        left:70.5px;
+        font-size: 25px;
+    }
+
+    .tayo-mmr_headline1 {
+        padding-top: var(250px);
+        padding-left: calc(2vw + 100px);
+    }
+
+    .tayo-mmr_headline1_p-block1 {
+        text-transform: uppercase;
+        font-weight: 900;
+        font-size: 60px;
+    }
+
+    .tayo-mmr_floating-textBlock {
+        width: 250px;
+        padding-top: 130px;
+        padding-left: calc(2vw + 100px);
+    }
+
+    .tayo-mmr_headline1_p-block2 {
+        text-transform: uppercase;
+        font-weight: 200;
+        font-size: 15px;
+        rotate: 0deg;
+        font-family: 'Montserrat';
+    }
+
+    .tayo-mmr_headline1-melon {
+        width: 150px;
+        padding-top: 5px;
+        padding-left: 5px;
+    }
+}
+
+@media screen and (max-width:900px) {
+    .tayo-mmr_switcherBlock{
+        padding-top: 50px;
+        padding-left: calc(70vw + 100px);
+    }
+    .tayo-mmr_switcherButton{
+        position: relative;
+        width: 130px;
+        height: 40px;
+        border-radius: 40px;
+    }
+    
+    .tayo-mmr_switcherFigure{
+        top:3.5px;
+        left: 5px;
+        width: 60px;
+        height: 35px;
+    }
+    
+    .tayo-mmr_switcherLogoPro{
+        top: -20px;
+        left:70.5px;
+        font-size: 25px;
+    }
+
+    .tayo-mmr_headline1 {
+        padding-top: var(--padding_top_headline1);
+        padding-left: calc(2vw + 100px);
+    }
+
+    .tayo-mmr_headline1_p-block1 {
+        text-transform: uppercase;
+        font-weight: 900;
+        font-size: 60px;
+    }
+
+    .tayo-mmr_floating-textBlock {
+        width: 250px;
+        padding-top: 130px;
+        padding-left: calc(2vw + 100px);
+    }
+
+    .tayo-mmr_headline1_p-block2 {
+        text-transform: uppercase;
+        font-weight: 200;
+        font-size: 15px;
+        rotate: 0deg;
+        font-family: 'Montserrat';
+    }
+
+    .tayo-mmr_headline1-melon {
+        width: 150px;
+        padding-top: 5px;
+        padding-left: 5px;
+    }
+}
+
+@media screen and (max-width:825px) {
+    .tayo-mmr_switcherBlock{
+        padding-top: 50px;
+        padding-left: calc(65vw + 50px);
+    }
+}
+
+@media screen and (max-width:635px) {
+    .tayo-mmr_switcherBlock{
+        padding-top: 50px;
+        padding-left: 70vw;
+    }
+
+    .tayo-mmr_headline1 {
+        padding-top: 120px;
+        padding-left: 10vw;
+        width:400px;
+    }
+
+
+    .tayo-mmr_head-block-jelly {
+        width: 100%;
+        height: 50vh;
+    }
+
+    .tayo-mmr_headline1_p-block1 {
+        text-transform: uppercase;
+        font-weight: 900;
+        font-size: 50px;
+    }
+
+    .tayo-mmr_floating-textBlock {
+        width: 500px;
+        padding-top: 290px;
+        padding-left: 10vw;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .tayo-mmr_switcherBlock{
+        padding-top: 50px;
+        padding-left: 65vw;
+    }
+    .tayo-mmr_switcherButton{
+        position: relative;
+        width: 100px;
+        height: 30px;
+        border-radius: 30px;
+    }
+    
+    .tayo-mmr_switcherFigure{
+        top:3.5px;
+        left: 5px;
+        width: 40px;
+        height: 25px;
+    }
+    
+    .tayo-mmr_switcherLogoPro{
+        top: -17.5px;
+        left:52.5px;
+        font-size: 20px;
+    }
+
+    .tayo-mmr_head-block-jelly {
+        width: 100%;
+        height: 50vh;
+    }
+
+    .tayo-mmr_headline1 {
+        padding-top: 140px;
+        padding-left: 20px;
+        width:400px;
+    }
+
+    .tayo-mmr_headline1_p-block1 {
+        text-transform: uppercase;
+        font-weight: 900;
+        font-size: 40px;
+    }
+
+    .tayo-mmr_floating-textBlock {
+        width: 250px;
+        padding-top: 270px;
+        padding-left: 23px;
+    }
+
+    .tayo-mmr_headline1_p-block2 {
+        text-transform: uppercase;
+        font-weight: 200;
+        font-size: 15px;
+        rotate: 0deg;
+        font-family: 'Montserrat';
+    }
+
+    .tayo-mmr_headline1-melon {
+        width: 120px;
+        padding-top: 5px;
+        padding-left: 5px;
+    }
+}
