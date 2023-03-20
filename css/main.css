@@ -248,7 +248,7 @@ template for u, Tayo <3
     right: 20px;
     font-size: 25px;
     background-image: url(../img/_.png);
-    background-size: 650px;
+    background-size: 320%;
     animation: background_vision_of_all 10s infinite;
     padding: 80px 50px;
 }

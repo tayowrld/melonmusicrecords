@@ -303,7 +303,7 @@
     }
 
     .stroke_borderleft.zvukWorkers{
-        top: 370px; 
+        top: 55vh; 
         left: 5vw;
         height: 80px;
     }
@@ -311,7 +311,7 @@
     .tayo-mmr_zvukWorkersAreVerySexy{
         font-size: 18px;
         width: 250px;
-        top: 350px; 
+        top: 52.75vh; 
         left:8vw;
     }
 }

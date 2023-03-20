@@ -28,23 +28,23 @@ body{
 
 @keyframes background_vision_of_all {
     0% {
-        background-position: -50px;
+        background-position: 10%;
         opacity: 1;
     }
     25% {
-        background-position: -50px;
+        background-position: 10%;
         opacity: 1;
     }
     30% {
-        background-position: -240px -100px;
+        background-position: 50% 30%;
         opacity: 1;
     }
     65%{
-        background-position: -240px -100px;
+        background-position: 50% 30%;
         opacity: 1;
     }
     70% {
-        background-position: -420px -50px;
+        background-position: 90% 40%;
         opacity: 1;
     }
     79%{
@@ -72,11 +72,11 @@ body{
         opacity: 1;
     }
     95%{
-        background-position: -420px -50px;
+        background-position: 90% 0%;
         opacity: 1;
     }
     100% {
-        background-position: -50px;
+        background-position: 10%;
         opacity: 1;
     }
 }   
