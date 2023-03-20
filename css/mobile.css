@@ -24,15 +24,15 @@
 
 @media screen and (max-width:1400px) {  
     .tayo-mmr_infoStage.el1 {
-        top: 50px;
+        top: 20px;
         left: 300px;
     }
     .tayo-mmr_infoStage.el2 {
-        top: 120px;
+        top: 100px;
         right: 300px;
     }
     .tayo-mmr_infoStage.el3 {
-        top: 190px;
+        top: 180px;
         left: 300px;
     }
     .tayo-mmr_infoStage.el4 {
@@ -42,6 +42,16 @@
 
     .tayo-mmr_studioInfoBlock{
         background-position: 15vw -15vh;
+    }
+
+    .stroke_borderleft.zvukWorkers{
+        top: 100px; 
+        left: 200px;
+    }
+
+    .tayo-mmr_zvukWorkersAreVerySexy{
+        top: 100px; 
+        left: 220px;
     }
 
 }
@@ -117,6 +127,26 @@
 
     .tayo-mmr_studioInfoBlock{
         background-position: 10vw -5vh;
+    }
+
+    .tayo-mmr_rec-round{
+        top: 240px;
+        left: calc(2vw + 400px);
+    }
+    .tayo-mmr_info_visionOfAll{
+        padding: 20px;
+    }
+
+    .stroke_borderleft.zvukWorkers{
+        top: 100px; 
+        left: 100px;
+        height: 80px;
+    }
+
+    .tayo-mmr_zvukWorkersAreVerySexy{
+        font-size: 18px;
+        top: 95px; 
+        left: 120px;
     }
 }
 
@@ -253,6 +283,37 @@
         left: calc(50vw - 250px);
         padding-top: 5px;
     }   
+
+    .tayo-mmr_rec-round{
+        top: 150px;
+        left: calc(2vw + 10px);
+    }
+
+    .tayo-mmr_block_information{
+        height: 100vh;
+    }
+    
+    .tayo-mmr_info_visionOfAll{
+        position: relative;
+        top: 50px;
+        left: 4vw;
+        width: 80%;
+        height: 40vh;
+        padding: 20px;
+    }
+
+    .stroke_borderleft.zvukWorkers{
+        top: 370px; 
+        left: 5vw;
+        height: 80px;
+    }
+
+    .tayo-mmr_zvukWorkersAreVerySexy{
+        font-size: 18px;
+        width: 250px;
+        top: 350px; 
+        left:8vw;
+    }
 }
 
 @media screen and (max-width:500px) {

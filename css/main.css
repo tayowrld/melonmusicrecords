@@ -18,9 +18,9 @@ html, body{
     height: max-content;
 }
 
-/* tayo-mmr the special class tag for melon music records web layout
+/* tayo-mmr the special class tag for Melon Music
 the first and the last author of this layout is Ivan (Tayo) Kurbakov 
-Made for presentation of my skills. For Melon Music Records 
+Made for presentation of my skills. For Melons (Diny)
 
 template for u, Tayo <3
 
@@ -99,6 +99,20 @@ template for u, Tayo <3
     z-index: 1;
 }
 
+.tayo-mmr_rec-round{
+    width:25px;
+    height: 25px;
+    background-color: #fccc9c;
+    border-radius: 40px;
+    position: absolute;
+    top: 160px;
+    left: calc(20vw + 96px);
+    z-index: 2;
+    animation: blicking 2s infinite;
+}
+
+
+
 .tayo-mmr_floating-textBlock {
     position: absolute;
     top: 0;
@@ -155,17 +169,18 @@ template for u, Tayo <3
     font-weight: 500;
 } */
 
-.tayo-mmr_studioInfoBlock{
+/* .tayo-mmr_studioInfoBlock{
     font-family: 'Jost';
     width: 100%;
-    height: 60vh;
+    height: 450px;
     text-align: center;
     font-weight: 500;
     color: #4c2d13;
-    background: url(../img/melon.svg);
+    background: url(../img/cloud.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
-    background-position: calc(10vw + 50px) calc(-30vh);
+    background-size:1000px;
+    background-blend-mode: saturation;
+    background-position: 45vw -5vh;
     background-clip: border-box;
 }
 
@@ -174,47 +189,98 @@ template for u, Tayo <3
 }
 
 .tayo-mmr_infoStage{
+    margin-top: 30px;
     position: absolute;
     font-size: 40px;
     top:0;
-    padding: 5px;
+    padding: 2px;
     border-radius: 15px;
-    -webkit-filter: drop-shadow( 3px 3px 2px #ffd5d5);
-    filter: drop-shadow( 3px 3px 2px #ffe4e4);
-    background-color: rgb(249, 252, 255);
+    -webkit-filter: drop-shadow( 3px 3px 2px #fccc9c);
+    filter: drop-shadow( 3px 3px 2px #fccc9c);
+    display: flex;
+    border-style: solid;
+    border-right: 4px;
+    border-bottom: 4px;
+    border-color: rgb(255, 251, 243);
+    background-color: white;
     display: inline-block;
 }
 
 .tayo-mmr_infoStage.el1 {
-    top: 40px;
-    left: 500px;
-    animation: animate__backInLeft;
-    animation-duration: 2s;
-    animation:tracking-in-expand 0.6s linear both;
+    top: 0px;
+    left: 600px;
+    animation: tracking-in-expand;
+    animation-duration: 0.5s;
 }
 .tayo-mmr_infoStage.el2 {
     top: 100px;
-    right: 500px;
-    animation:tracking-in-expand 0.7s linear both;
+    right: 600px;
+    animation: tracking-in-expand;
+    animation-duration: 0.75s;
 }
 .tayo-mmr_infoStage.el3 {
-    top: 160px;
-    left: 500px;
-    animation:tracking-in-expand 0.8s linear both;
+    top: 200px;
+    left: 700px;
+    animation: tracking-in-expand;
+    animation-duration: 0.65s;
 }
 .tayo-mmr_infoStage.el4 {
-    top: 220px;
-    right: 500px;
-    animation:tracking-in-expand 0.9s linear both;
+    top: 300px;
+    right: 700px;
+    animation: tracking-in-expand;
+    animation-duration: 0.95s;
+} */
+
+
+
+.tayo-mmr_block_information{
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background-color: #ffeede;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
 }
+
+.tayo-mmr_info_visionOfAll{
+    position: absolute; 
+    top:-18px; 
+    right: 20px;
+    font-size: 25px;
+    background-image: url(../img/_.png);
+    background-size: 650px;
+    animation: background_vision_of_all 10s infinite;
+    padding: 80px 50px;
+}
+
+
+.stroke_borderleft.zvukWorkers{
+    height: 100px;
+    top: 100px; 
+    left: 380px;
+}
+
+.tayo-mmr_zvukWorkersAreVerySexy{
+    position: absolute;
+    top: 100px;
+    left: 400px;
+    width: 450px;
+    font-size: 20px;
+    color: rgb(75, 47, 47);
+    height: auto;
+}
+
+
+
 
 .tayo-mmr_footer{
     position: absolute;
-    background-color: black;
-    color: white;
+    background-color: white;
+    border-color: black;
+    border-width: 2px;
     width: 100%;
     height: 40px;
-    text-align: end;
+    text-align: center;
     padding-top: 15px;
     padding-bottom: 0;
     font-size: 20px;
